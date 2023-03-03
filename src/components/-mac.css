@@ -1,0 +1,74 @@
+.-mac-i-mac {
+  width: 421px;
+  height: 354.4259948730469px;
+  display: flex;
+  position: relative;
+  box-shadow: -20px 30px 40px 0px rgba(0, 0, 0, 0.5) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.-mac-shadow {
+  top: 352.1810302734375px;
+  left: 140.59156799316406px;
+  width: 139px;
+  height: 2px;
+  position: absolute;
+}
+.-mac-support {
+  top: 301.96087646484375px;
+  left: 140.71360778808594px;
+  width: 139px;
+  height: 52px;
+  position: absolute;
+}
+.-mac-front-plate {
+  top: 254.25091552734375px;
+  left: 0px;
+  width: 421px;
+  height: 48px;
+  position: absolute;
+}
+.-mac-apple-logo {
+  top: 264.51763916015625px;
+  left: 201.1058807373047px;
+  width: 20px;
+  height: 24px;
+  position: absolute;
+  box-shadow: 0px 0px 0.6666666865348816px 0px rgba(0, 0, 0, 0.6700000166893005) ;
+  box-sizing: content-box;
+}
+.-mac-border {
+  top: 0px;
+  left: 0px;
+  width: 421px;
+  height: 254px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 34.433284759521484px 34.433284759521484px 0 0;
+}
+.-mac-screen {
+  top: 21.920442581176758px;
+  left: 20.533430099487305px;
+  width: 380px;
+  height: 213.1844024658203px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.-mac-wallpaper {
+  top: 0.07958984375px;
+  left: 0.466552734375px;
+  width: 379px;
+  height: 213px;
+  position: absolute;
+  border-color: transparent;
+}
+.-mac-root-class-name {
+  top: 353.578125px;
+  right: 255px;
+  position: absolute;
+}
