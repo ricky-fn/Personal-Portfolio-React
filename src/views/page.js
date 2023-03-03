@@ -55,7 +55,7 @@ const Page = (props) => {
                 results that make an impact.
               </span>
               <div className="page-actions">
-                <button className="page-button">
+                <button className="main-button">
                   <span className="page-text13">VIEW MY RESUME</span>
                 </button>
                 <button className="page-button1">

@@ -76,6 +76,18 @@
   display: flex !important;
   transform: none !important;
 }
+.main-button {
+  width: 197.14321899414062px;
+  display: flex;
+  padding: 13px 23px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: var(--dl-space-space-twounits);
+  border-radius: 40px;
+  justify-content: center;
+  background-color: rgba(245, 186, 8, 1);
+}
 .Heading {
   font-size: 32px;
   font-family: Inter;
@@ -106,3 +118,5 @@
   text-transform: none;
   text-decoration: none;
 }
+
+

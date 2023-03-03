@@ -143,18 +143,6 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.page-button {
-  width: 197.14321899414062px;
-  display: flex;
-  padding: 13px 23px;
-  align-items: center;
-  flex-shrink: 0;
-  border-color: transparent;
-  margin-right: var(--dl-space-space-twounits);
-  border-radius: 40px;
-  justify-content: center;
-  background-color: rgba(245, 186, 8, 1);
-}
 .page-text13 {
   color: rgb(0, 0, 0);
   height: auto;
@@ -743,4 +731,9 @@
   width: 808px;
   height: 670px;
   position: absolute;
+}
+@media(max-width: 1600px) {
+  .page-keyboard {
+    left: -44px;
+  }
 }
