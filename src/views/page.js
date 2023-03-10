@@ -7,6 +7,8 @@ import './page.css'
 
 import HeroSection from '../sections/hero'
 import WorkSection from '../sections/work'
+import ProjectSection from '../sections/projects'
+import ContactSection from '../sections/contact'
 
 const Page = (props) => {
   return (
@@ -17,7 +19,8 @@ const Page = (props) => {
       <ScrollContainer snap="none">
         <HeroSection />
         <WorkSection />
-        <ScrollPage></ScrollPage>
+        <ProjectSection />
+        <ContactSection />
       </ScrollContainer>
     </div>
   )

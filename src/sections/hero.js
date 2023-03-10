@@ -16,7 +16,6 @@ const HeroSection = () => {
           <Animator animation={batch(Fade(), MoveOut(0, -200))}>
             <div className="page-hero-container">
               <img
-                alt="DSC06436removebgpreview21818"
                 src="/playground_assets/dsc06436removebgpreview21818-aoq5-1500w.png"
                 className="page-dsc06436removebgpreview21"
               />
