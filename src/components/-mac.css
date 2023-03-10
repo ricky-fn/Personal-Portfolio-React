@@ -3,7 +3,7 @@
   height: 354.4259948730469px;
   display: flex;
   position: relative;
-  box-shadow: -20px 30px 40px 0px rgba(0, 0, 0, 0.5) ;
+  box-shadow: -20px 30px 40px 0px rgba(0, 0, 0, 0.5);
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
@@ -35,7 +35,7 @@
   width: 20px;
   height: 24px;
   position: absolute;
-  box-shadow: 0px 0px 0.6666666865348816px 0px rgba(0, 0, 0, 0.6700000166893005) ;
+  box-shadow: 0px 0px 0.6666666865348816px 0px rgba(0, 0, 0, 0.6700000166893005);
   box-sizing: content-box;
 }
 .-mac-border {
@@ -66,9 +66,4 @@
   height: 213px;
   position: absolute;
   border-color: transparent;
-}
-.-mac-root-class-name {
-  top: 353.578125px;
-  right: 255px;
-  position: absolute;
 }
