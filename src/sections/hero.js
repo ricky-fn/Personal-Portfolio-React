@@ -6,7 +6,7 @@ import {
   Fade,
   MoveOut,
   Sticky,
-} from 'react-scroll-motion'
+} from '@ricky-fn/react-scroll-motion'
 
 const HeroSection = () => {
   return (

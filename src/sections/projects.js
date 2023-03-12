@@ -6,12 +6,12 @@ import {
   Fade,
   MoveOut,
   Sticky,
-} from 'react-scroll-motion'
+} from '@ricky-fn/react-scroll-motion'
 
 const ProjectSection = () => {
   return (
-    <ScrollPage>
-      <section className="page-i-mac-section">
+    <section className="page-i-mac-section">
+      <div className="container5">
         <div className="page-logos">
           <img
             alt="GoogleChromeLogowine18710"
@@ -116,8 +116,8 @@ const ProjectSection = () => {
           src="/playground_assets/svgmanworkingonlaptopicon41828-bm7k.svg"
           className="page-manwithlaptop"
         />
-      </section>
-    </ScrollPage>
+      </div>
+    </section>
   )
 }
 

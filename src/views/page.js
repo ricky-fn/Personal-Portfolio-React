@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Helmet } from 'react-helmet'
-import { ScrollContainer, ScrollPage } from 'react-scroll-motion'
+import { ScrollContainer, ScrollPage } from '@ricky-fn/react-scroll-motion'
 
 import './page.css'
 
@@ -16,11 +16,19 @@ const Page = (props) => {
       <Helmet>
         <title>exported project</title>
       </Helmet>
-      <ScrollContainer snap="none">
-        <HeroSection />
-        <WorkSection />
-        <ProjectSection />
-        <ContactSection />
+      <ScrollContainer>
+        <ScrollPage>
+          <HeroSection />
+        </ScrollPage>
+        <ScrollPage pageHeight={window.innerHeight * 4}>
+          <WorkSection />
+        </ScrollPage>
+        <ScrollPage>
+          <ProjectSection />
+        </ScrollPage>
+        <ScrollPage>
+          <ContactSection />
+        </ScrollPage>
       </ScrollContainer>
     </div>
   )
